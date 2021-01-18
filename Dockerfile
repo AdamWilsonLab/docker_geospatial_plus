@@ -4,6 +4,7 @@ MAINTAINER "Adam M. Wilson" adamw@buffalo.edu
 RUN apt-get update \
   && apt-get install -y --no-install-recommends \
         locales \
+        libudunits2-dev \
         libssl-dev \
         libxml2-dev \
         libcairo2-dev \
