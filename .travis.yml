@@ -1,0 +1,10 @@
+services:
+  - docker
+before_install:
+  - docker build -t wilsonlab .
+script:
+  - docker run -ti wilsonlab R --version | grep -q "3."
+  - docker run -ti wilsonlab R -e 'library(sf)'
+
+
+
