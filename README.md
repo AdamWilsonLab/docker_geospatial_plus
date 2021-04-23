@@ -1,4 +1,4 @@
-# wilsonlab
+# Geospatial Plus
 
 
-Docker-based toolkit for R, built on versioned Rocker images. 
+Building on the versioned geospatial Rocker image.
