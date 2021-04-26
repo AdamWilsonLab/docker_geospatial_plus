@@ -14,8 +14,8 @@ RUN  apt-get install -y --no-install-recommends --allow-unauthenticated \
       ca-certificates \
       netcat
 
-RUN      NOW=`date`
-RUN      echo "export NOW=\"${NOW}\"" >> $SINGULARITY_ENVIRONMENT
+#RUN      NOW=`date`
+#RUN      echo "export NOW=\"${NOW}\"" >> $SINGULARITY_ENVIRONMENT
 
 # Add a default CRAN mirror
 RUN  mkdir -p /usr/lib/R/etc/
