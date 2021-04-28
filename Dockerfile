@@ -14,9 +14,6 @@ RUN  apt-get install -y --no-install-recommends --allow-unauthenticated \
       ca-certificates \
       netcat
 
-#RUN      NOW=`date`
-#RUN      echo "export NOW=\"${NOW}\"" >> $SINGULARITY_ENVIRONMENT
-
 # Add a default CRAN mirror
 RUN  mkdir -p /usr/lib/R/etc/
 RUN  echo "options(repos = c(CRAN = 'https://cran.rstudio.com/'), download.file.method = 'libcurl')" >> /usr/lib/R/etc/Rprofile.site
