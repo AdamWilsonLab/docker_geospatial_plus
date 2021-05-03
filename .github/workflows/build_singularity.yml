@@ -1,5 +1,11 @@
-name: Singularity Build (docker)
-on: [push]
+name: Singularity Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
 jobs:
 
   build:
