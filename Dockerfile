@@ -13,7 +13,7 @@ RUN  apt-get install -y --no-install-recommends --allow-unauthenticated \
       libglu1-mesa-dev \
       ca-certificates \
       netcat \
-      libsecret
+      libsecret-1-0
 
 # Add a default CRAN mirror
 RUN  mkdir -p /usr/lib/R/etc/
