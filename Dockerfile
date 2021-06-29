@@ -35,5 +35,5 @@ RUN    R -e "install.packages('coda', method='wget', quiet=T, verbose=F)"
 RUN    R -e "install.packages('mcmc', method='wget', quiet=T, verbose=F)"
 RUN    R -e "install.packages('colourvalues', method='wget', quiet=T, verbose=F)"
 RUN    R -e "install.packages('BiocManager', method='wget', quiet=T, verbose=F)"
-RUN    R -e "install.packages('keyring', method='wget', quiet=T, verbose=F
+RUN    R -e "install.packages('keyring', method='wget', quiet=T, verbose=F)"
 RUN    R -e "BiocManager::install('rhdf5')"
