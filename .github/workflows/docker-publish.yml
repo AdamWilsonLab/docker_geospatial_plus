@@ -14,7 +14,7 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: wilsonlab_geospatialR
+  IMAGE_NAME: docker_geospatial_plus
 
 jobs:
   # Run tests.
